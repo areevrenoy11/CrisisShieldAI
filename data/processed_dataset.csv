@@ -1,251 +1,251 @@
 message,claimed_location,claimed_date,source_present,urgency_words,verification_status
-"Message says riots breaking out in Shimla, no official police statement available yet, stay cautious.",Shimla,2026-06-22,0,1,0
-"National Center for Seismology confirms magnitude 4.2 tremor felt in Bhakra, no damage reported.",Bhakra,2026-06-13,1,0,1
-"Heard that Mandi highway completely blocked by landslide, no official confirmation, people stuck for hours.",Mandi,2026-06-26,0,1,0
-"Chandigarh district disaster cell confirms minor quake, asks residents to follow standard safety precautions.",Chandigarh,2026-06-29,1,0,1
-"District health officer in Shimla verifies dengue cases rising, fogging drive scheduled this week.",Shimla,2026-06-10,1,0,1
-"Viral post about magnitude 7 quake hitting Indore found to be fabricated, no seismic activity recorded.",Indore,2026-07-05,0,0,0
-"Claim of city-wide curfew in Chandigarh debunked by police, situation reported to be completely normal.",Chandigarh,2026-07-02,0,0,0
-"Forward circulating that curfew will be imposed across Guwahati tonight, stock up on essentials, unconfirmed.",Guwahati,2026-06-28,0,1,0
-"Forward circulating that curfew will be imposed across IIT Mandi tonight, stock up on essentials, unconfirmed.",IIT Mandi,2026-07-04,0,1,0
-Disaster management office Indore verifies water level data and confirms 200 families moved to shelters.,Indore,2026-06-24,1,0,1
-"Photo claiming to show Delhi fire actually from an unrelated incident in another city, confirmed by fact-checkers.",Delhi,2026-06-27,0,0,0
-"Message claims Kamand bridge has washed away in flood, unconfirmed by any local news so far.",Kamand,2026-06-12,0,1,0
-"Message says gas leak caused explosion in Amritsar hostel, fire department yet to confirm details.",Amritsar,2026-06-18,0,0,0
-"Power utility confirms planned outage in Sangli sector for grid maintenance, restoration expected within hours.",Sangli,2026-06-16,1,0,1
-"Indore police confirm prohibitory orders in specific zones following yesterday's protest, situation under control.",Indore,2026-06-15,1,0,1
-"Forward claims multiple vehicles trapped in Guwahati landslide, exact numbers unverified.",Guwahati,2026-06-22,0,1,0
-"Dehradun water board confirms temporary supply disruption due to pipeline repair, services to resume by evening.",Dehradun,2026-06-12,1,0,1
-"Power utility confirms planned outage in Dehradun sector for grid maintenance, restoration expected within hours.",Dehradun,2026-06-12,1,0,1
-"Forward claims Shimla power grid collapsed entirely, restoration timeline unknown, unconfirmed by utility board.",Shimla,2026-06-16,0,1,0
-IMD bulletin confirms heavy rainfall caused Mandi river to breach embankment near the old bridge area.,Mandi,2026-06-14,1,0,1
-"Claim of city-wide curfew in Mandi debunked by police, situation reported to be completely normal.",Mandi,2026-07-06,0,0,0
-"Viral post about magnitude 7 quake hitting Nagpur found to be fabricated, no seismic activity recorded.",Nagpur,2026-06-29,0,0,0
-Video claiming to show Kamand flood actually traced to a different state by fact-checkers.,Kamand,2026-07-07,0,0,0
-"Surat fire brigade verifies factory fire contained, cause under investigation, no injuries.",Surat,2026-07-05,1,0,1
-"Message claims Kanpur bridge has washed away in flood, unconfirmed by any local news so far.",Kanpur,2026-06-28,0,1,0
-Old 2018 flood photos being recirculated and falsely captioned as current Pune flooding.,Pune,2026-06-22,0,0,0
-"Fire department confirms blaze at Amritsar market controlled within two hours, no casualties reported.",Amritsar,2026-06-12,1,0,1
-"Patna health department confirms viral fever cases at local hospital, isolation ward set up as precaution.",Patna,2026-06-18,1,0,1
-"Rumor of major fire in Kullu industrial area found false, area was conducting a fire safety drill.",Kullu,2026-07-04,0,1,0
-"Rumor going around that Bhakra water has been contaminated, no official lab results shared yet, people avoiding tap water.",Bhakra,2026-06-20,0,1,0
-"Rumor of major fire in Pune industrial area found false, area was conducting a fire safety drill.",Pune,2026-06-26,0,1,0
-Kullu district administration confirms relief camps opened in low-lying areas after river crossed danger mark.,Kullu,2026-06-13,1,0,1
-"Message says riots breaking out in Guwahati, no official police statement available yet, stay cautious.",Guwahati,2026-06-11,0,1,0
-"Nagpur water board confirms temporary supply disruption due to pipeline repair, services to resume by evening.",Nagpur,2026-07-03,1,0,1
-"Forward claims multiple vehicles trapped in Sangli landslide, exact numbers unverified.",Sangli,2026-07-01,0,1,0
-"Forward: mystery illness spreading fast in Delhi hostels, students hospitalized, admin allegedly not informing parents.",Delhi,2026-06-18,0,1,0
-"National Center for Seismology confirms magnitude 4.2 tremor felt in Mumbai, no damage reported.",Mumbai,2026-06-11,1,0,1
-"Forward going around that a bigger earthquake will hit Amritsar within 24 hours, no scientific basis cited.",Amritsar,2026-06-16,0,1,0
-"Rumor of major fire in Surat industrial area found false, area was conducting a fire safety drill.",Surat,2026-07-04,0,1,0
-"Viral post about magnitude 7 quake hitting Guwahati found to be fabricated, no seismic activity recorded.",Guwahati,2026-06-12,0,0,0
-"Claim that Dehradun water supply poisoned deliberately found to be false rumor, water department confirms safe testing results.",Dehradun,2026-06-12,0,1,0
-"Heard that Amritsar highway completely blocked by landslide, no official confirmation, people stuck for hours.",Amritsar,2026-07-01,0,1,0
-"Fire department confirms blaze at Patna market controlled within two hours, no casualties reported.",Patna,2026-06-13,1,0,1
-IMD bulletin confirms heavy rainfall caused Nagpur river to breach embankment near the old bridge area.,Nagpur,2026-06-15,1,0,1
-"Claim of earthquake prediction for IIT Mandi next week debunked, seismologists confirm earthquakes cannot be predicted.",IIT Mandi,2026-06-26,0,0,0
-"Claim of new deadly virus outbreak in Surat found to be fabricated, no cases reported to health department.",Surat,2026-06-27,0,0,0
-"Forward going around that a bigger earthquake will hit Chandigarh within 24 hours, no scientific basis cited.",Chandigarh,2026-07-03,0,1,0
-"Forward: mystery illness spreading fast in IIT Mandi hostels, students hospitalized, admin allegedly not informing parents.",IIT Mandi,2026-06-10,0,1,0
-"Power utility confirms planned outage in Shimla sector for grid maintenance, restoration expected within hours.",Shimla,2026-07-03,1,0,1
-"Claim of earthquake prediction for Sangli next week debunked, seismologists confirm earthquakes cannot be predicted.",Sangli,2026-07-07,0,0,0
-"Power utility confirms planned outage in Nagpur sector for grid maintenance, restoration expected within hours.",Nagpur,2026-07-03,1,0,1
-"Rumor going around that Kullu water has been contaminated, no official lab results shared yet, people avoiding tap water.",Kullu,2026-06-29,0,1,0
-"Rumor that Shimla water supply caused mass poisoning debunked, water quality test results came back normal.",Shimla,2026-06-22,0,1,0
-"Voice note circulating that Dehradun area completely cut off due to flooding, exact situation unclear.",Dehradun,2026-06-22,0,0,0
-"Claim of city-wide curfew in Sangli debunked by police, situation reported to be completely normal.",Sangli,2026-06-14,0,0,0
-"Claim of landslide blocking Bhakra-Manali road this week proven false, road was open as per traffic police records.",Bhakra,2026-06-23,0,0,0
-"Delhi health department confirms viral fever cases at local hospital, isolation ward set up as precaution.",Delhi,2026-06-23,1,0,1
-"Kanpur district disaster cell confirms minor quake, asks residents to follow standard safety precautions.",Kanpur,2026-06-21,1,0,1
-District administration Mumbai officially confirms temporary restrictions near old city area till tomorrow evening.,Mumbai,2026-06-17,1,0,1
-"Mumbai police confirm prohibitory orders in specific zones following yesterday's protest, situation under control.",Mumbai,2026-07-07,1,0,1
-"Voice note circulating that Kanpur area completely cut off due to flooding, exact situation unclear.",Kanpur,2026-06-14,0,0,0
-"PWD confirms landslide debris cleared on Amritsar road, traffic resumed after 6 hour closure.",Amritsar,2026-06-26,1,0,1
-"National Center for Seismology confirms magnitude 4.2 tremor felt in Mandi, no damage reported.",Mandi,2026-06-13,1,0,1
-"Kamand health department confirms viral fever cases at local hospital, isolation ward set up as precaution.",Kamand,2026-07-04,1,0,1
-Shimla district administration confirms relief camps opened in low-lying areas after river crossed danger mark.,Shimla,2026-06-27,1,0,1
-"Rumor of major fire in Mandi industrial area found false, area was conducting a fire safety drill.",Mandi,2026-06-14,0,1,0
-"Old protest footage from another city being passed off as current unrest in Kullu, confirmed false by fact-checkers.",Kullu,2026-06-10,0,0,0
-"Forward claims Dehradun power grid collapsed entirely, restoration timeline unknown, unconfirmed by utility board.",Dehradun,2026-07-04,0,1,0
-"Forward circulating that curfew will be imposed across Kamand tonight, stock up on essentials, unconfirmed.",Kamand,2026-06-10,0,1,0
-"Forward: mystery illness spreading fast in Pune hostels, students hospitalized, admin allegedly not informing parents.",Pune,2026-06-27,0,1,0
-"Old landslide visuals from last monsoon being shared as recent Chandigarh incident, debunked by local journalists.",Chandigarh,2026-06-26,0,1,0
-"Nagpur fire brigade verifies factory fire contained, cause under investigation, no injuries.",Nagpur,2026-06-12,1,0,1
-"Viral post about magnitude 7 quake hitting Mandi found to be fabricated, no seismic activity recorded.",Mandi,2026-06-25,0,0,0
-"Message says gas leak caused explosion in Indore hostel, fire department yet to confirm details.",Indore,2026-06-16,0,0,0
-"Nashik water board confirms temporary supply disruption due to pipeline repair, services to resume by evening.",Nashik,2026-07-01,1,0,1
-"Claim of earthquake prediction for Amritsar next week debunked, seismologists confirm earthquakes cannot be predicted.",Amritsar,2026-07-05,0,0,0
-"Kullu district disaster cell confirms minor quake, asks residents to follow standard safety precautions.",Kullu,2026-06-14,1,0,1
-"Claim of new deadly virus outbreak in Guwahati found to be fabricated, no cases reported to health department.",Guwahati,2026-06-16,0,0,0
-"Forward: Kanpur entirely submerged, water entering second floor of houses, no help has arrived yet.",Kanpur,2026-06-12,0,1,0
-"PWD confirms landslide debris cleared on Mumbai road, traffic resumed after 6 hour closure.",Mumbai,2026-07-04,1,0,1
-"Claim that Guwahati dam gates opened without warning proven false, irrigation dept confirms scheduled release with prior notice.",Guwahati,2026-06-28,0,0,0
-"Forward claims Pune power grid collapsed entirely, restoration timeline unknown, unconfirmed by utility board.",Pune,2026-06-18,0,1,0
-"Rumor going around that Kanpur water has been contaminated, no official lab results shared yet, people avoiding tap water.",Kanpur,2026-07-03,0,1,0
-"Power utility confirms planned outage in Nashik sector for grid maintenance, restoration expected within hours.",Nashik,2026-07-07,1,0,1
-"Forward going around that a bigger earthquake will hit Kamand within 24 hours, no scientific basis cited.",Kamand,2026-06-19,0,1,0
-"Claim that Chandigarh water supply poisoned deliberately found to be false rumor, water department confirms safe testing results.",Chandigarh,2026-06-24,0,1,0
-"Rumor that Pune water supply caused mass poisoning debunked, water quality test results came back normal.",Pune,2026-07-02,0,1,0
-"Message says gas leak caused explosion in Shimla hostel, fire department yet to confirm details.",Shimla,2026-07-03,0,0,0
-"Heard that Indore highway completely blocked by landslide, no official confirmation, people stuck for hours.",Indore,2026-06-20,0,1,0
-"Claim of landslide blocking Mumbai-Manali road this week proven false, road was open as per traffic police records.",Mumbai,2026-06-15,0,0,0
-"Claim of new deadly virus outbreak in Nagpur found to be fabricated, no cases reported to health department.",Nagpur,2026-06-25,0,0,0
-"Forward: massive fire spreading fast in Kanpur, multiple buildings affected, please share for awareness.",Kanpur,2026-06-25,0,1,0
-"Old landslide visuals from last monsoon being shared as recent Amritsar incident, debunked by local journalists.",Amritsar,2026-06-18,0,1,0
-"Claim that Indore dam gates opened without warning proven false, irrigation dept confirms scheduled release with prior notice.",Indore,2026-06-23,0,0,0
-"Message says riots breaking out in Mandi, no official police statement available yet, stay cautious.",Mandi,2026-07-07,0,1,0
-District administration Patna officially confirms temporary restrictions near old city area till tomorrow evening.,Patna,2026-06-17,1,0,1
-"Claim that Kanpur dam gates opened without warning proven false, irrigation dept confirms scheduled release with prior notice.",Kanpur,2026-06-14,0,0,0
-IMD bulletin confirms heavy rainfall caused Bhakra river to breach embankment near the old bridge area.,Bhakra,2026-07-01,1,0,1
-"Voice note circulating that IIT Mandi area completely cut off due to flooding, exact situation unclear.",IIT Mandi,2026-06-21,0,0,0
-"Old landslide visuals from last monsoon being shared as recent Surat incident, debunked by local journalists.",Surat,2026-07-05,0,1,0
-"Claim that Mumbai dam gates opened without warning proven false, irrigation dept confirms scheduled release with prior notice.",Mumbai,2026-06-17,0,0,0
-"Rumor of major fire in Kamand industrial area found false, area was conducting a fire safety drill.",Kamand,2026-06-14,0,1,0
-"Claim of earthquake prediction for Mumbai next week debunked, seismologists confirm earthquakes cannot be predicted.",Mumbai,2026-06-17,0,0,0
-"Message claims food poisoning outbreak in Patna mess hospitalized dozens, hospital yet to issue statement.",Patna,2026-06-27,0,1,0
-IMD bulletin confirms heavy rainfall caused Kamand river to breach embankment near the old bridge area.,Kamand,2026-06-23,1,0,1
-"Delhi district disaster cell confirms minor quake, asks residents to follow standard safety precautions.",Delhi,2026-06-16,1,0,1
-Nashik district administration confirms relief camps opened in low-lying areas after river crossed danger mark.,Nashik,2026-06-12,1,0,1
-"Message says riots breaking out in Mumbai, no official police statement available yet, stay cautious.",Mumbai,2026-07-02,0,1,0
-"NDRF teams deployed to Guwahati riverside colonies, official evacuation underway as per district magistrate's statement.",Guwahati,2026-06-27,1,0,1
-"Claim that Kanpur water supply poisoned deliberately found to be false rumor, water department confirms safe testing results.",Kanpur,2026-06-16,0,1,0
-"Old landslide visuals from last monsoon being shared as recent Guwahati incident, debunked by local journalists.",Guwahati,2026-06-11,0,1,0
-"Power utility confirms planned outage in Chandigarh sector for grid maintenance, restoration expected within hours.",Chandigarh,2026-06-17,1,0,1
-"Indore fire brigade verifies factory fire contained, cause under investigation, no injuries.",Indore,2026-06-22,1,0,1
-"Forward: massive fire spreading fast in Surat, multiple buildings affected, please share for awareness.",Surat,2026-06-29,0,1,0
-"Forward: massive fire spreading fast in Delhi, multiple buildings affected, please share for awareness.",Delhi,2026-06-28,0,1,0
-"Old protest footage from another city being passed off as current unrest in Delhi, confirmed false by fact-checkers.",Delhi,2026-06-30,0,0,0
-"Guwahati-Kullu highway officially closed after landslide, district administration advises alternate route via Bilaspur.",Guwahati,2026-07-04,1,0,1
-"People saying aftershocks expected in Kamand tonight, no official seismology confirmation yet.",Kamand,2026-06-10,0,1,0
-"Forward claims multiple vehicles trapped in Indore landslide, exact numbers unverified.",Indore,2026-06-24,0,1,0
-"Power utility confirms planned outage in Mandi sector for grid maintenance, restoration expected within hours.",Mandi,2026-06-25,1,0,1
-"Fire department confirms blaze at IIT Mandi market controlled within two hours, no casualties reported.",IIT Mandi,2026-06-17,1,0,1
-"Forward claims multiple vehicles trapped in Nashik landslide, exact numbers unverified.",Nashik,2026-06-17,0,1,0
-"Rumor that Guwahati water supply caused mass poisoning debunked, water quality test results came back normal.",Guwahati,2026-06-15,0,1,0
-"Photo claiming to show Mumbai fire actually from an unrelated incident in another city, confirmed by fact-checkers.",Mumbai,2026-06-18,0,0,0
-"Sangli police confirm prohibitory orders in specific zones following yesterday's protest, situation under control.",Sangli,2026-06-17,1,0,1
-"Rumor going around that Amritsar water has been contaminated, no official lab results shared yet, people avoiding tap water.",Amritsar,2026-06-29,0,1,0
-"Mandi-Kullu highway officially closed after landslide, district administration advises alternate route via Bilaspur.",Mandi,2026-06-13,1,0,1
-"Claim of city-wide curfew in Bhakra debunked by police, situation reported to be completely normal.",Bhakra,2026-06-26,0,0,0
-"PWD confirms landslide debris cleared on Pune road, traffic resumed after 6 hour closure.",Pune,2026-06-10,1,0,1
-"Forward going around that a bigger earthquake will hit Bhakra within 24 hours, no scientific basis cited.",Bhakra,2026-06-25,0,1,0
-District administration Nagpur officially confirms temporary restrictions near old city area till tomorrow evening.,Nagpur,2026-06-20,1,0,1
-"Old landslide visuals from last monsoon being shared as recent Delhi incident, debunked by local journalists.",Delhi,2026-06-20,0,1,0
-"Forward: massive fire spreading fast in Mumbai, multiple buildings affected, please share for awareness.",Mumbai,2026-06-14,0,1,0
-District administration Amritsar officially confirms temporary restrictions near old city area till tomorrow evening.,Amritsar,2026-06-26,1,0,1
-"Forward circulating that curfew will be imposed across Dehradun tonight, stock up on essentials, unconfirmed.",Dehradun,2026-06-12,0,1,0
-"Kamand water board confirms temporary supply disruption due to pipeline repair, services to resume by evening.",Kamand,2026-06-27,1,0,1
-"Forward: mystery illness spreading fast in Mumbai hostels, students hospitalized, admin allegedly not informing parents.",Mumbai,2026-06-23,0,1,0
-"District health officer in Kamand verifies dengue cases rising, fogging drive scheduled this week.",Kamand,2026-07-02,1,0,1
-"Claim that Bhakra water supply poisoned deliberately found to be false rumor, water department confirms safe testing results.",Bhakra,2026-06-24,0,1,0
-"Delhi-Kullu highway officially closed after landslide, district administration advises alternate route via Bilaspur.",Delhi,2026-06-26,1,0,1
-"Kanpur police confirm prohibitory orders in specific zones following yesterday's protest, situation under control.",Kanpur,2026-06-24,1,0,1
-"Someone in Delhi WhatsApp group says dam release happening without warning, people scared, not officially confirmed.",Delhi,2026-06-12,0,1,0
-"Forward circulating that curfew will be imposed across Nagpur tonight, stock up on essentials, unconfirmed.",Nagpur,2026-06-22,0,1,0
-"Claim that Delhi water supply poisoned deliberately found to be false rumor, water department confirms safe testing results.",Delhi,2026-06-19,0,1,0
-"Viral post about magnitude 7 quake hitting Mumbai found to be fabricated, no seismic activity recorded.",Mumbai,2026-06-10,0,0,0
-"Patna district disaster cell confirms minor quake, asks residents to follow standard safety precautions.",Patna,2026-06-24,1,0,1
-"Photo claiming to show IIT Mandi fire actually from an unrelated incident in another city, confirmed by fact-checkers.",IIT Mandi,2026-07-04,0,0,0
-Video claiming to show Guwahati flood actually traced to a different state by fact-checkers.,Guwahati,2026-06-22,0,0,0
-"Heard that Patna highway completely blocked by landslide, no official confirmation, people stuck for hours.",Patna,2026-06-12,0,1,0
-"Claim of city-wide curfew in IIT Mandi debunked by police, situation reported to be completely normal.",IIT Mandi,2026-07-02,0,0,0
-"People saying aftershocks expected in Indore tonight, no official seismology confirmation yet.",Indore,2026-06-15,0,1,0
-"Heard that Kanpur highway completely blocked by landslide, no official confirmation, people stuck for hours.",Kanpur,2026-06-24,0,1,0
-"Old protest footage from another city being passed off as current unrest in Amritsar, confirmed false by fact-checkers.",Amritsar,2026-06-24,0,0,0
-"Chandigarh police confirm prohibitory orders in specific zones following yesterday's protest, situation under control.",Chandigarh,2026-07-01,1,0,1
-"Viral post about magnitude 7 quake hitting Kanpur found to be fabricated, no seismic activity recorded.",Kanpur,2026-06-24,0,0,0
-"Claim of landslide blocking Pune-Manali road this week proven false, road was open as per traffic police records.",Pune,2026-06-17,0,0,0
-"Forward going around that a bigger earthquake will hit IIT Mandi within 24 hours, no scientific basis cited.",IIT Mandi,2026-06-25,0,1,0
-"Message about complete power blackout in Bhakra for a week proven false, only 3 hour scheduled maintenance occurred.",Bhakra,2026-07-02,0,0,0
-"PWD confirms landslide debris cleared on Kullu road, traffic resumed after 6 hour closure.",Kullu,2026-06-29,1,0,1
-"Message says gas leak caused explosion in Patna hostel, fire department yet to confirm details.",Patna,2026-06-26,0,0,0
-"People saying aftershocks expected in Kanpur tonight, no official seismology confirmation yet.",Kanpur,2026-06-21,0,1,0
-"Old landslide visuals from last monsoon being shared as recent IIT Mandi incident, debunked by local journalists.",IIT Mandi,2026-06-24,0,1,0
-"Claim of earthquake prediction for Indore next week debunked, seismologists confirm earthquakes cannot be predicted.",Indore,2026-06-22,0,0,0
-"Forward: mystery illness spreading fast in Surat hostels, students hospitalized, admin allegedly not informing parents.",Surat,2026-06-13,0,1,0
-"Old landslide visuals from last monsoon being shared as recent Kamand incident, debunked by local journalists.",Kamand,2026-07-02,0,1,0
-"Forward going around that a bigger earthquake will hit Delhi within 24 hours, no scientific basis cited.",Delhi,2026-06-13,0,1,0
-"Message about complete power blackout in Patna for a week proven false, only 3 hour scheduled maintenance occurred.",Patna,2026-06-25,0,0,0
-"People saying aftershocks expected in Mandi tonight, no official seismology confirmation yet.",Mandi,2026-07-02,0,1,0
-"Message claims food poisoning outbreak in Shimla mess hospitalized dozens, hospital yet to issue statement.",Shimla,2026-07-01,0,1,0
-"Claim that Surat water supply poisoned deliberately found to be false rumor, water department confirms safe testing results.",Surat,2026-06-22,0,1,0
-"NDRF teams deployed to Delhi riverside colonies, official evacuation underway as per district magistrate's statement.",Delhi,2026-06-28,1,0,1
-"Patna fire brigade verifies factory fire contained, cause under investigation, no injuries.",Patna,2026-07-03,1,0,1
-"Rumor of major fire in Indore industrial area found false, area was conducting a fire safety drill.",Indore,2026-06-14,0,1,0
-"Rumor going around that Delhi water has been contaminated, no official lab results shared yet, people avoiding tap water.",Delhi,2026-06-30,0,1,0
-"Pune health department confirms viral fever cases at local hospital, isolation ward set up as precaution.",Pune,2026-06-14,1,0,1
-"Forward: mystery illness spreading fast in Kanpur hostels, students hospitalized, admin allegedly not informing parents.",Kanpur,2026-06-15,0,1,0
-"Rumor of major fire in IIT Mandi industrial area found false, area was conducting a fire safety drill.",IIT Mandi,2026-06-27,0,1,0
-"Rumor that Kamand water supply caused mass poisoning debunked, water quality test results came back normal.",Kamand,2026-07-06,0,1,0
-"Fire department confirms blaze at Mandi market controlled within two hours, no casualties reported.",Mandi,2026-06-13,1,0,1
-"Forward: Shimla entirely submerged, water entering second floor of houses, no help has arrived yet.",Shimla,2026-06-25,0,1,0
-"Forward claims Delhi power grid collapsed entirely, restoration timeline unknown, unconfirmed by utility board.",Delhi,2026-06-13,0,1,0
-Old 2018 flood photos being recirculated and falsely captioned as current Delhi flooding.,Delhi,2026-06-18,0,0,0
-"Message says gas leak caused explosion in Mandi hostel, fire department yet to confirm details.",Mandi,2026-06-10,0,0,0
-"Claim of city-wide curfew in Mumbai debunked by police, situation reported to be completely normal.",Mumbai,2026-06-23,0,0,0
-"Claim that Bhakra dam gates opened without warning proven false, irrigation dept confirms scheduled release with prior notice.",Bhakra,2026-06-18,0,0,0
-"Power utility confirms planned outage in Delhi sector for grid maintenance, restoration expected within hours.",Delhi,2026-06-18,1,0,1
-"Indore health department confirms viral fever cases at local hospital, isolation ward set up as precaution.",Indore,2026-06-28,1,0,1
-"Claim that Kamand water supply poisoned deliberately found to be false rumor, water department confirms safe testing results.",Kamand,2026-06-12,0,1,0
-"Message about complete power blackout in Nashik for a week proven false, only 3 hour scheduled maintenance occurred.",Nashik,2026-06-22,0,0,0
-"Bhakra-Kullu highway officially closed after landslide, district administration advises alternate route via Bilaspur.",Bhakra,2026-07-04,1,0,1
-"Forward: mystery illness spreading fast in Amritsar hostels, students hospitalized, admin allegedly not informing parents.",Amritsar,2026-06-15,0,1,0
-Video claiming to show Kanpur flood actually traced to a different state by fact-checkers.,Kanpur,2026-07-01,0,0,0
-"Message says riots breaking out in Delhi, no official police statement available yet, stay cautious.",Delhi,2026-07-05,0,1,0
-"Rumor going around that Surat water has been contaminated, no official lab results shared yet, people avoiding tap water.",Surat,2026-06-30,0,1,0
-"PWD confirms landslide debris cleared on Patna road, traffic resumed after 6 hour closure.",Patna,2026-06-25,1,0,1
-"People saying aftershocks expected in Surat tonight, no official seismology confirmation yet.",Surat,2026-06-26,0,1,0
-"Forward claims multiple vehicles trapped in Bhakra landslide, exact numbers unverified.",Bhakra,2026-06-21,0,1,0
-"Nagpur police confirm prohibitory orders in specific zones following yesterday's protest, situation under control.",Nagpur,2026-06-19,1,0,1
-"Message claims Shimla bridge has washed away in flood, unconfirmed by any local news so far.",Shimla,2026-06-12,0,1,0
-"Heard that Surat highway completely blocked by landslide, no official confirmation, people stuck for hours.",Surat,2026-06-22,0,1,0
-"People saying aftershocks expected in Chandigarh tonight, no official seismology confirmation yet.",Chandigarh,2026-06-30,0,1,0
-"Message says gas leak caused explosion in Chandigarh hostel, fire department yet to confirm details.",Chandigarh,2026-06-26,0,0,0
-"Message says riots breaking out in Kullu, no official police statement available yet, stay cautious.",Kullu,2026-07-04,0,1,0
-"Claim of earthquake prediction for Dehradun next week debunked, seismologists confirm earthquakes cannot be predicted.",Dehradun,2026-06-17,0,0,0
-"District health officer in Indore verifies dengue cases rising, fogging drive scheduled this week.",Indore,2026-07-07,1,0,1
-"Rumor of major fire in Chandigarh industrial area found false, area was conducting a fire safety drill.",Chandigarh,2026-07-07,0,1,0
-"Voice note circulating that Guwahati area completely cut off due to flooding, exact situation unclear.",Guwahati,2026-07-07,0,0,0
-"Bhakra police confirm prohibitory orders in specific zones following yesterday's protest, situation under control.",Bhakra,2026-07-02,1,0,1
-"District health officer in Patna verifies dengue cases rising, fogging drive scheduled this week.",Patna,2026-06-13,1,0,1
-"Claim of city-wide curfew in Kullu debunked by police, situation reported to be completely normal.",Kullu,2026-06-26,0,0,0
-"National Center for Seismology confirms magnitude 4.2 tremor felt in Delhi, no damage reported.",Delhi,2026-06-16,1,0,1
-"PWD confirms landslide debris cleared on IIT Mandi road, traffic resumed after 6 hour closure.",IIT Mandi,2026-06-24,1,0,1
-"Nashik-Kullu highway officially closed after landslide, district administration advises alternate route via Bilaspur.",Nashik,2026-06-16,1,0,1
-"Message claims food poisoning outbreak in Indore mess hospitalized dozens, hospital yet to issue statement.",Indore,2026-06-11,0,1,0
-"Chandigarh fire brigade verifies factory fire contained, cause under investigation, no injuries.",Chandigarh,2026-06-15,1,0,1
-Old 2018 flood photos being recirculated and falsely captioned as current Nashik flooding.,Nashik,2026-07-01,0,0,0
-"Fire department confirms blaze at Shimla market controlled within two hours, no casualties reported.",Shimla,2026-06-29,1,0,1
-"National Center for Seismology confirms magnitude 4.2 tremor felt in Indore, no damage reported.",Indore,2026-06-13,1,0,1
-"Message says gas leak caused explosion in Surat hostel, fire department yet to confirm details.",Surat,2026-07-06,0,0,0
-"District health officer in Mandi verifies dengue cases rising, fogging drive scheduled this week.",Mandi,2026-06-11,1,0,1
-"Forward: Indore entirely submerged, water entering second floor of houses, no help has arrived yet.",Indore,2026-06-13,0,1,0
-"National Center for Seismology confirms magnitude 4.2 tremor felt in IIT Mandi, no damage reported.",IIT Mandi,2026-06-25,1,0,1
-"Claim that Indore water supply poisoned deliberately found to be false rumor, water department confirms safe testing results.",Indore,2026-06-16,0,1,0
-"Claim of city-wide curfew in Dehradun debunked by police, situation reported to be completely normal.",Dehradun,2026-06-10,0,0,0
-"Pune district disaster cell confirms minor quake, asks residents to follow standard safety precautions.",Pune,2026-06-12,1,0,1
-"Rumor that Kanpur water supply caused mass poisoning debunked, water quality test results came back normal.",Kanpur,2026-06-12,0,1,0
-"Old landslide visuals from last monsoon being shared as recent Nashik incident, debunked by local journalists.",Nashik,2026-06-12,0,1,0
-"Rumor of major fire in Amritsar industrial area found false, area was conducting a fire safety drill.",Amritsar,2026-06-14,0,1,0
-District administration Chandigarh officially confirms temporary restrictions near old city area till tomorrow evening.,Chandigarh,2026-06-19,1,0,1
-Bhakra district administration confirms relief camps opened in low-lying areas after river crossed danger mark.,Bhakra,2026-06-28,1,0,1
-"Message claims food poisoning outbreak in Kanpur mess hospitalized dozens, hospital yet to issue statement.",Kanpur,2026-06-18,0,1,0
-"Message says gas leak caused explosion in Nashik hostel, fire department yet to confirm details.",Nashik,2026-06-10,0,0,0
-"Sangli health department confirms viral fever cases at local hospital, isolation ward set up as precaution.",Sangli,2026-06-18,1,0,1
-"Rumor that Kullu water supply caused mass poisoning debunked, water quality test results came back normal.",Kullu,2026-06-21,0,1,0
-"Claim of landslide blocking Mandi-Manali road this week proven false, road was open as per traffic police records.",Mandi,2026-06-15,0,0,0
-"Message claims food poisoning outbreak in Mandi mess hospitalized dozens, hospital yet to issue statement.",Mandi,2026-06-19,0,1,0
-Old 2018 flood photos being recirculated and falsely captioned as current Sangli flooding.,Sangli,2026-07-07,0,0,0
-"Rumor that Chandigarh water supply caused mass poisoning debunked, water quality test results came back normal.",Chandigarh,2026-06-14,0,1,0
-Disaster management office Kamand verifies water level data and confirms 200 families moved to shelters.,Kamand,2026-06-28,1,0,1
-"District health officer in Mumbai verifies dengue cases rising, fogging drive scheduled this week.",Mumbai,2026-06-23,1,0,1
-"IIT Mandi fire brigade verifies factory fire contained, cause under investigation, no injuries.",IIT Mandi,2026-07-05,1,0,1
-"Rumor going around that Nagpur water has been contaminated, no official lab results shared yet, people avoiding tap water.",Nagpur,2026-06-18,0,1,0
-"Claim of new deadly virus outbreak in Sangli found to be fabricated, no cases reported to health department.",Sangli,2026-06-23,0,0,0
-"Forward circulating that curfew will be imposed across Delhi tonight, stock up on essentials, unconfirmed.",Delhi,2026-07-06,0,1,0
-"Claim of city-wide curfew in Nagpur debunked by police, situation reported to be completely normal.",Nagpur,2026-07-04,0,0,0
-"Rumor going around that Shimla water has been contaminated, no official lab results shared yet, people avoiding tap water.",Shimla,2026-06-12,0,1,0
-"Message about complete power blackout in Kamand for a week proven false, only 3 hour scheduled maintenance occurred.",Kamand,2026-06-21,0,0,0
-"Message claims Indore bridge has washed away in flood, unconfirmed by any local news so far.",Indore,2026-07-01,0,1,0
-"Claim of new deadly virus outbreak in Indore found to be fabricated, no cases reported to health department.",Indore,2026-06-22,0,0,0
-"Fire department confirms blaze at Kamand market controlled within two hours, no casualties reported.",Kamand,2026-06-25,1,0,1
+"Message says riots breaking out in Shimla, no official police statement available yet, stay cautious.",Shimla,6/22/2026,0,1,1
+"National Center for Seismology confirms magnitude 4.2 tremor felt in Bhakra, no damage reported.",Bhakra,6/13/2026,1,0,0
+"Heard that Mandi highway completely blocked by landslide, no official confirmation, people stuck for hours.",Mandi,6/26/2026,0,1,1
+"Chandigarh district disaster cell confirms minor quake, asks residents to follow standard safety precautions.",Chandigarh,6/29/2026,1,0,0
+"District health officer in Shimla verifies dengue cases rising, fogging drive scheduled this week.",Shimla,6/10/2026,1,0,0
+"Viral post about magnitude 7 quake hitting Indore found to be fabricated, no seismic activity recorded.",Indore,7/5/2026,0,0,1
+"Claim of city-wide curfew in Chandigarh debunked by police, situation reported to be completely normal.",Chandigarh,7/2/2026,0,0,1
+"Forward circulating that curfew will be imposed across Guwahati tonight, stock up on essentials, unconfirmed.",Guwahati,6/28/2026,0,1,1
+"Forward circulating that curfew will be imposed across IIT Mandi tonight, stock up on essentials, unconfirmed.",IIT Mandi,7/4/2026,0,1,1
+Disaster management office Indore verifies water level data and confirms 200 families moved to shelters.,Indore,6/24/2026,1,0,0
+"Photo claiming to show Delhi fire actually from an unrelated incident in another city, confirmed by fact-checkers.",Delhi,6/27/2026,0,0,1
+"Message claims Kamand bridge has washed away in flood, unconfirmed by any local news so far.",Kamand,6/12/2026,0,1,1
+"Message says gas leak caused explosion in Amritsar hostel, fire department yet to confirm details.",Amritsar,6/18/2026,0,0,1
+"Power utility confirms planned outage in Sangli sector for grid maintenance, restoration expected within hours.",Sangli,6/16/2026,1,0,0
+"Indore police confirm prohibitory orders in specific zones following yesterday's protest, situation under control.",Indore,6/15/2026,1,0,0
+"Forward claims multiple vehicles trapped in Guwahati landslide, exact numbers unverified.",Guwahati,6/22/2026,0,1,1
+"Dehradun water board confirms temporary supply disruption due to pipeline repair, services to resume by evening.",Dehradun,6/12/2026,1,0,0
+"Power utility confirms planned outage in Dehradun sector for grid maintenance, restoration expected within hours.",Dehradun,6/12/2026,1,0,0
+"Forward claims Shimla power grid collapsed entirely, restoration timeline unknown, unconfirmed by utility board.",Shimla,6/16/2026,0,1,1
+IMD bulletin confirms heavy rainfall caused Mandi river to breach embankment near the old bridge area.,Mandi,6/14/2026,1,0,0
+"Claim of city-wide curfew in Mandi debunked by police, situation reported to be completely normal.",Mandi,7/6/2026,0,0,1
+"Viral post about magnitude 7 quake hitting Nagpur found to be fabricated, no seismic activity recorded.",Nagpur,6/29/2026,0,0,1
+Video claiming to show Kamand flood actually traced to a different state by fact-checkers.,Kamand,7/7/2026,0,0,1
+"Surat fire brigade verifies factory fire contained, cause under investigation, no injuries.",Surat,7/5/2026,1,0,0
+"Message claims Kanpur bridge has washed away in flood, unconfirmed by any local news so far.",Kanpur,6/28/2026,0,1,1
+Old 2018 flood photos being recirculated and falsely captioned as current Pune flooding.,Pune,6/22/2026,0,0,1
+"Fire department confirms blaze at Amritsar market controlled within two hours, no casualties reported.",Amritsar,6/12/2026,1,0,0
+"Patna health department confirms viral fever cases at local hospital, isolation ward set up as precaution.",Patna,6/18/2026,1,0,0
+"Rumor of major fire in Kullu industrial area found false, area was conducting a fire safety drill.",Kullu,7/4/2026,0,1,1
+"Rumor going around that Bhakra water has been contaminated, no official lab results shared yet, people avoiding tap water.",Bhakra,6/20/2026,0,1,1
+"Rumor of major fire in Pune industrial area found false, area was conducting a fire safety drill.",Pune,6/26/2026,0,1,1
+Kullu district administration confirms relief camps opened in low-lying areas after river crossed danger mark.,Kullu,6/13/2026,1,0,0
+"Message says riots breaking out in Guwahati, no official police statement available yet, stay cautious.",Guwahati,6/11/2026,0,1,1
+"Nagpur water board confirms temporary supply disruption due to pipeline repair, services to resume by evening.",Nagpur,7/3/2026,1,0,0
+"Forward claims multiple vehicles trapped in Sangli landslide, exact numbers unverified.",Sangli,7/1/2026,0,1,1
+"Forward: mystery illness spreading fast in Delhi hostels, students hospitalized, admin allegedly not informing parents.",Delhi,6/18/2026,0,1,1
+"National Center for Seismology confirms magnitude 4.2 tremor felt in Mumbai, no damage reported.",Mumbai,6/11/2026,1,0,0
+"Forward going around that a bigger earthquake will hit Amritsar within 24 hours, no scientific basis cited.",Amritsar,6/16/2026,0,1,1
+"Rumor of major fire in Surat industrial area found false, area was conducting a fire safety drill.",Surat,7/4/2026,0,1,1
+"Viral post about magnitude 7 quake hitting Guwahati found to be fabricated, no seismic activity recorded.",Guwahati,6/12/2026,0,0,1
+"Claim that Dehradun water supply poisoned deliberately found to be false rumor, water department confirms safe testing results.",Dehradun,6/12/2026,0,1,1
+"Heard that Amritsar highway completely blocked by landslide, no official confirmation, people stuck for hours.",Amritsar,7/1/2026,0,1,1
+"Fire department confirms blaze at Patna market controlled within two hours, no casualties reported.",Patna,6/13/2026,1,0,0
+IMD bulletin confirms heavy rainfall caused Nagpur river to breach embankment near the old bridge area.,Nagpur,6/15/2026,1,0,0
+"Claim of earthquake prediction for IIT Mandi next week debunked, seismologists confirm earthquakes cannot be predicted.",IIT Mandi,6/26/2026,0,0,1
+"Claim of new deadly virus outbreak in Surat found to be fabricated, no cases reported to health department.",Surat,6/27/2026,0,0,1
+"Forward going around that a bigger earthquake will hit Chandigarh within 24 hours, no scientific basis cited.",Chandigarh,7/3/2026,0,1,1
+"Forward: mystery illness spreading fast in IIT Mandi hostels, students hospitalized, admin allegedly not informing parents.",IIT Mandi,6/10/2026,0,1,1
+"Power utility confirms planned outage in Shimla sector for grid maintenance, restoration expected within hours.",Shimla,7/3/2026,1,0,0
+"Claim of earthquake prediction for Sangli next week debunked, seismologists confirm earthquakes cannot be predicted.",Sangli,7/7/2026,0,0,1
+"Power utility confirms planned outage in Nagpur sector for grid maintenance, restoration expected within hours.",Nagpur,7/3/2026,1,0,0
+"Rumor going around that Kullu water has been contaminated, no official lab results shared yet, people avoiding tap water.",Kullu,6/29/2026,0,1,1
+"Rumor that Shimla water supply caused mass poisoning debunked, water quality test results came back normal.",Shimla,6/22/2026,0,1,1
+"Voice note circulating that Dehradun area completely cut off due to flooding, exact situation unclear.",Dehradun,6/22/2026,0,0,1
+"Claim of city-wide curfew in Sangli debunked by police, situation reported to be completely normal.",Sangli,6/14/2026,0,0,1
+"Claim of landslide blocking Bhakra-Manali road this week proven false, road was open as per traffic police records.",Bhakra,6/23/2026,0,0,1
+"Delhi health department confirms viral fever cases at local hospital, isolation ward set up as precaution.",Delhi,6/23/2026,1,0,0
+"Kanpur district disaster cell confirms minor quake, asks residents to follow standard safety precautions.",Kanpur,6/21/2026,1,0,0
+District administration Mumbai officially confirms temporary restrictions near old city area till tomorrow evening.,Mumbai,6/17/2026,1,0,0
+"Mumbai police confirm prohibitory orders in specific zones following yesterday's protest, situation under control.",Mumbai,7/7/2026,1,0,0
+"Voice note circulating that Kanpur area completely cut off due to flooding, exact situation unclear.",Kanpur,6/14/2026,0,0,1
+"PWD confirms landslide debris cleared on Amritsar road, traffic resumed after 6 hour closure.",Amritsar,6/26/2026,1,0,0
+"National Center for Seismology confirms magnitude 4.2 tremor felt in Mandi, no damage reported.",Mandi,6/13/2026,1,0,0
+"Kamand health department confirms viral fever cases at local hospital, isolation ward set up as precaution.",Kamand,7/4/2026,1,0,0
+Shimla district administration confirms relief camps opened in low-lying areas after river crossed danger mark.,Shimla,6/27/2026,1,0,0
+"Rumor of major fire in Mandi industrial area found false, area was conducting a fire safety drill.",Mandi,6/14/2026,0,1,1
+"Old protest footage from another city being passed off as current unrest in Kullu, confirmed false by fact-checkers.",Kullu,6/10/2026,0,0,1
+"Forward claims Dehradun power grid collapsed entirely, restoration timeline unknown, unconfirmed by utility board.",Dehradun,7/4/2026,0,1,1
+"Forward circulating that curfew will be imposed across Kamand tonight, stock up on essentials, unconfirmed.",Kamand,6/10/2026,0,1,1
+"Forward: mystery illness spreading fast in Pune hostels, students hospitalized, admin allegedly not informing parents.",Pune,6/27/2026,0,1,1
+"Old landslide visuals from last monsoon being shared as recent Chandigarh incident, debunked by local journalists.",Chandigarh,6/26/2026,0,1,1
+"Nagpur fire brigade verifies factory fire contained, cause under investigation, no injuries.",Nagpur,6/12/2026,1,0,0
+"Viral post about magnitude 7 quake hitting Mandi found to be fabricated, no seismic activity recorded.",Mandi,6/25/2026,0,0,1
+"Message says gas leak caused explosion in Indore hostel, fire department yet to confirm details.",Indore,6/16/2026,0,0,1
+"Nashik water board confirms temporary supply disruption due to pipeline repair, services to resume by evening.",Nashik,7/1/2026,1,0,0
+"Claim of earthquake prediction for Amritsar next week debunked, seismologists confirm earthquakes cannot be predicted.",Amritsar,7/5/2026,0,0,1
+"Kullu district disaster cell confirms minor quake, asks residents to follow standard safety precautions.",Kullu,6/14/2026,1,0,0
+"Claim of new deadly virus outbreak in Guwahati found to be fabricated, no cases reported to health department.",Guwahati,6/16/2026,0,0,1
+"Forward: Kanpur entirely submerged, water entering second floor of houses, no help has arrived yet.",Kanpur,6/12/2026,0,1,1
+"PWD confirms landslide debris cleared on Mumbai road, traffic resumed after 6 hour closure.",Mumbai,7/4/2026,1,0,0
+"Claim that Guwahati dam gates opened without warning proven false, irrigation dept confirms scheduled release with prior notice.",Guwahati,6/28/2026,0,0,1
+"Forward claims Pune power grid collapsed entirely, restoration timeline unknown, unconfirmed by utility board.",Pune,6/18/2026,0,1,1
+"Rumor going around that Kanpur water has been contaminated, no official lab results shared yet, people avoiding tap water.",Kanpur,7/3/2026,0,1,1
+"Power utility confirms planned outage in Nashik sector for grid maintenance, restoration expected within hours.",Nashik,7/7/2026,1,0,0
+"Forward going around that a bigger earthquake will hit Kamand within 24 hours, no scientific basis cited.",Kamand,6/19/2026,0,1,1
+"Claim that Chandigarh water supply poisoned deliberately found to be false rumor, water department confirms safe testing results.",Chandigarh,6/24/2026,0,1,1
+"Rumor that Pune water supply caused mass poisoning debunked, water quality test results came back normal.",Pune,7/2/2026,0,1,1
+"Message says gas leak caused explosion in Shimla hostel, fire department yet to confirm details.",Shimla,7/3/2026,0,0,1
+"Heard that Indore highway completely blocked by landslide, no official confirmation, people stuck for hours.",Indore,6/20/2026,0,1,1
+"Claim of landslide blocking Mumbai-Manali road this week proven false, road was open as per traffic police records.",Mumbai,6/15/2026,0,0,1
+"Claim of new deadly virus outbreak in Nagpur found to be fabricated, no cases reported to health department.",Nagpur,6/25/2026,0,0,1
+"Forward: massive fire spreading fast in Kanpur, multiple buildings affected, please share for awareness.",Kanpur,6/25/2026,0,1,1
+"Old landslide visuals from last monsoon being shared as recent Amritsar incident, debunked by local journalists.",Amritsar,6/18/2026,0,1,1
+"Claim that Indore dam gates opened without warning proven false, irrigation dept confirms scheduled release with prior notice.",Indore,6/23/2026,0,0,1
+"Message says riots breaking out in Mandi, no official police statement available yet, stay cautious.",Mandi,7/7/2026,0,1,1
+District administration Patna officially confirms temporary restrictions near old city area till tomorrow evening.,Patna,6/17/2026,1,0,0
+"Claim that Kanpur dam gates opened without warning proven false, irrigation dept confirms scheduled release with prior notice.",Kanpur,6/14/2026,0,0,1
+IMD bulletin confirms heavy rainfall caused Bhakra river to breach embankment near the old bridge area.,Bhakra,7/1/2026,1,0,0
+"Voice note circulating that IIT Mandi area completely cut off due to flooding, exact situation unclear.",IIT Mandi,6/21/2026,0,0,1
+"Old landslide visuals from last monsoon being shared as recent Surat incident, debunked by local journalists.",Surat,7/5/2026,0,1,1
+"Claim that Mumbai dam gates opened without warning proven false, irrigation dept confirms scheduled release with prior notice.",Mumbai,6/17/2026,0,0,1
+"Rumor of major fire in Kamand industrial area found false, area was conducting a fire safety drill.",Kamand,6/14/2026,0,1,1
+"Claim of earthquake prediction for Mumbai next week debunked, seismologists confirm earthquakes cannot be predicted.",Mumbai,6/17/2026,0,0,1
+"Message claims food poisoning outbreak in Patna mess hospitalized dozens, hospital yet to issue statement.",Patna,6/27/2026,0,1,1
+IMD bulletin confirms heavy rainfall caused Kamand river to breach embankment near the old bridge area.,Kamand,6/23/2026,1,0,0
+"Delhi district disaster cell confirms minor quake, asks residents to follow standard safety precautions.",Delhi,6/16/2026,1,0,0
+Nashik district administration confirms relief camps opened in low-lying areas after river crossed danger mark.,Nashik,6/12/2026,1,0,0
+"Message says riots breaking out in Mumbai, no official police statement available yet, stay cautious.",Mumbai,7/2/2026,0,1,1
+"NDRF teams deployed to Guwahati riverside colonies, official evacuation underway as per district magistrate's statement.",Guwahati,6/27/2026,1,0,0
+"Claim that Kanpur water supply poisoned deliberately found to be false rumor, water department confirms safe testing results.",Kanpur,6/16/2026,0,1,1
+"Old landslide visuals from last monsoon being shared as recent Guwahati incident, debunked by local journalists.",Guwahati,6/11/2026,0,1,1
+"Power utility confirms planned outage in Chandigarh sector for grid maintenance, restoration expected within hours.",Chandigarh,6/17/2026,1,0,0
+"Indore fire brigade verifies factory fire contained, cause under investigation, no injuries.",Indore,6/22/2026,1,0,0
+"Forward: massive fire spreading fast in Surat, multiple buildings affected, please share for awareness.",Surat,6/29/2026,0,1,1
+"Forward: massive fire spreading fast in Delhi, multiple buildings affected, please share for awareness.",Delhi,6/28/2026,0,1,1
+"Old protest footage from another city being passed off as current unrest in Delhi, confirmed false by fact-checkers.",Delhi,6/30/2026,0,0,1
+"Guwahati-Kullu highway officially closed after landslide, district administration advises alternate route via Bilaspur.",Guwahati,7/4/2026,1,0,0
+"People saying aftershocks expected in Kamand tonight, no official seismology confirmation yet.",Kamand,6/10/2026,0,1,1
+"Forward claims multiple vehicles trapped in Indore landslide, exact numbers unverified.",Indore,6/24/2026,0,1,1
+"Power utility confirms planned outage in Mandi sector for grid maintenance, restoration expected within hours.",Mandi,6/25/2026,1,0,0
+"Fire department confirms blaze at IIT Mandi market controlled within two hours, no casualties reported.",IIT Mandi,6/17/2026,1,0,0
+"Forward claims multiple vehicles trapped in Nashik landslide, exact numbers unverified.",Nashik,6/17/2026,0,1,1
+"Rumor that Guwahati water supply caused mass poisoning debunked, water quality test results came back normal.",Guwahati,6/15/2026,0,1,1
+"Photo claiming to show Mumbai fire actually from an unrelated incident in another city, confirmed by fact-checkers.",Mumbai,6/18/2026,0,0,1
+"Sangli police confirm prohibitory orders in specific zones following yesterday's protest, situation under control.",Sangli,6/17/2026,1,0,0
+"Rumor going around that Amritsar water has been contaminated, no official lab results shared yet, people avoiding tap water.",Amritsar,6/29/2026,0,1,1
+"Mandi-Kullu highway officially closed after landslide, district administration advises alternate route via Bilaspur.",Mandi,6/13/2026,1,0,0
+"Claim of city-wide curfew in Bhakra debunked by police, situation reported to be completely normal.",Bhakra,6/26/2026,0,0,1
+"PWD confirms landslide debris cleared on Pune road, traffic resumed after 6 hour closure.",Pune,6/10/2026,1,0,0
+"Forward going around that a bigger earthquake will hit Bhakra within 24 hours, no scientific basis cited.",Bhakra,6/25/2026,0,1,1
+District administration Nagpur officially confirms temporary restrictions near old city area till tomorrow evening.,Nagpur,6/20/2026,1,0,0
+"Old landslide visuals from last monsoon being shared as recent Delhi incident, debunked by local journalists.",Delhi,6/20/2026,0,1,1
+"Forward: massive fire spreading fast in Mumbai, multiple buildings affected, please share for awareness.",Mumbai,6/14/2026,0,1,1
+District administration Amritsar officially confirms temporary restrictions near old city area till tomorrow evening.,Amritsar,6/26/2026,1,0,0
+"Forward circulating that curfew will be imposed across Dehradun tonight, stock up on essentials, unconfirmed.",Dehradun,6/12/2026,0,1,1
+"Kamand water board confirms temporary supply disruption due to pipeline repair, services to resume by evening.",Kamand,6/27/2026,1,0,0
+"Forward: mystery illness spreading fast in Mumbai hostels, students hospitalized, admin allegedly not informing parents.",Mumbai,6/23/2026,0,1,1
+"District health officer in Kamand verifies dengue cases rising, fogging drive scheduled this week.",Kamand,7/2/2026,1,0,0
+"Claim that Bhakra water supply poisoned deliberately found to be false rumor, water department confirms safe testing results.",Bhakra,6/24/2026,0,1,1
+"Delhi-Kullu highway officially closed after landslide, district administration advises alternate route via Bilaspur.",Delhi,6/26/2026,1,0,0
+"Kanpur police confirm prohibitory orders in specific zones following yesterday's protest, situation under control.",Kanpur,6/24/2026,1,0,0
+"Someone in Delhi WhatsApp group says dam release happening without warning, people scared, not officially confirmed.",Delhi,6/12/2026,0,1,1
+"Forward circulating that curfew will be imposed across Nagpur tonight, stock up on essentials, unconfirmed.",Nagpur,6/22/2026,0,1,1
+"Claim that Delhi water supply poisoned deliberately found to be false rumor, water department confirms safe testing results.",Delhi,6/19/2026,0,1,1
+"Viral post about magnitude 7 quake hitting Mumbai found to be fabricated, no seismic activity recorded.",Mumbai,6/10/2026,0,0,1
+"Patna district disaster cell confirms minor quake, asks residents to follow standard safety precautions.",Patna,6/24/2026,1,0,0
+"Photo claiming to show IIT Mandi fire actually from an unrelated incident in another city, confirmed by fact-checkers.",IIT Mandi,7/4/2026,0,0,1
+Video claiming to show Guwahati flood actually traced to a different state by fact-checkers.,Guwahati,6/22/2026,0,0,1
+"Heard that Patna highway completely blocked by landslide, no official confirmation, people stuck for hours.",Patna,6/12/2026,0,1,1
+"Claim of city-wide curfew in IIT Mandi debunked by police, situation reported to be completely normal.",IIT Mandi,7/2/2026,0,0,1
+"People saying aftershocks expected in Indore tonight, no official seismology confirmation yet.",Indore,6/15/2026,0,1,1
+"Heard that Kanpur highway completely blocked by landslide, no official confirmation, people stuck for hours.",Kanpur,6/24/2026,0,1,1
+"Old protest footage from another city being passed off as current unrest in Amritsar, confirmed false by fact-checkers.",Amritsar,6/24/2026,0,0,1
+"Chandigarh police confirm prohibitory orders in specific zones following yesterday's protest, situation under control.",Chandigarh,7/1/2026,1,0,0
+"Viral post about magnitude 7 quake hitting Kanpur found to be fabricated, no seismic activity recorded.",Kanpur,6/24/2026,0,0,1
+"Claim of landslide blocking Pune-Manali road this week proven false, road was open as per traffic police records.",Pune,6/17/2026,0,0,1
+"Forward going around that a bigger earthquake will hit IIT Mandi within 24 hours, no scientific basis cited.",IIT Mandi,6/25/2026,0,1,1
+"Message about complete power blackout in Bhakra for a week proven false, only 3 hour scheduled maintenance occurred.",Bhakra,7/2/2026,0,0,1
+"PWD confirms landslide debris cleared on Kullu road, traffic resumed after 6 hour closure.",Kullu,6/29/2026,1,0,0
+"Message says gas leak caused explosion in Patna hostel, fire department yet to confirm details.",Patna,6/26/2026,0,0,1
+"People saying aftershocks expected in Kanpur tonight, no official seismology confirmation yet.",Kanpur,6/21/2026,0,1,1
+"Old landslide visuals from last monsoon being shared as recent IIT Mandi incident, debunked by local journalists.",IIT Mandi,6/24/2026,0,1,1
+"Claim of earthquake prediction for Indore next week debunked, seismologists confirm earthquakes cannot be predicted.",Indore,6/22/2026,0,0,1
+"Forward: mystery illness spreading fast in Surat hostels, students hospitalized, admin allegedly not informing parents.",Surat,6/13/2026,0,1,1
+"Old landslide visuals from last monsoon being shared as recent Kamand incident, debunked by local journalists.",Kamand,7/2/2026,0,1,1
+"Forward going around that a bigger earthquake will hit Delhi within 24 hours, no scientific basis cited.",Delhi,6/13/2026,0,1,1
+"Message about complete power blackout in Patna for a week proven false, only 3 hour scheduled maintenance occurred.",Patna,6/25/2026,0,0,1
+"People saying aftershocks expected in Mandi tonight, no official seismology confirmation yet.",Mandi,7/2/2026,0,1,1
+"Message claims food poisoning outbreak in Shimla mess hospitalized dozens, hospital yet to issue statement.",Shimla,7/1/2026,0,1,1
+"Claim that Surat water supply poisoned deliberately found to be false rumor, water department confirms safe testing results.",Surat,6/22/2026,0,1,1
+"NDRF teams deployed to Delhi riverside colonies, official evacuation underway as per district magistrate's statement.",Delhi,6/28/2026,1,0,0
+"Patna fire brigade verifies factory fire contained, cause under investigation, no injuries.",Patna,7/3/2026,1,0,0
+"Rumor of major fire in Indore industrial area found false, area was conducting a fire safety drill.",Indore,6/14/2026,0,1,1
+"Rumor going around that Delhi water has been contaminated, no official lab results shared yet, people avoiding tap water.",Delhi,6/30/2026,0,1,1
+"Pune health department confirms viral fever cases at local hospital, isolation ward set up as precaution.",Pune,6/14/2026,1,0,0
+"Forward: mystery illness spreading fast in Kanpur hostels, students hospitalized, admin allegedly not informing parents.",Kanpur,6/15/2026,0,1,1
+"Rumor of major fire in IIT Mandi industrial area found false, area was conducting a fire safety drill.",IIT Mandi,6/27/2026,0,1,1
+"Rumor that Kamand water supply caused mass poisoning debunked, water quality test results came back normal.",Kamand,7/6/2026,0,1,1
+"Fire department confirms blaze at Mandi market controlled within two hours, no casualties reported.",Mandi,6/13/2026,1,0,0
+"Forward: Shimla entirely submerged, water entering second floor of houses, no help has arrived yet.",Shimla,6/25/2026,0,1,1
+"Forward claims Delhi power grid collapsed entirely, restoration timeline unknown, unconfirmed by utility board.",Delhi,6/13/2026,0,1,1
+Old 2018 flood photos being recirculated and falsely captioned as current Delhi flooding.,Delhi,6/18/2026,0,0,1
+"Message says gas leak caused explosion in Mandi hostel, fire department yet to confirm details.",Mandi,6/10/2026,0,0,1
+"Claim of city-wide curfew in Mumbai debunked by police, situation reported to be completely normal.",Mumbai,6/23/2026,0,0,1
+"Claim that Bhakra dam gates opened without warning proven false, irrigation dept confirms scheduled release with prior notice.",Bhakra,6/18/2026,0,0,1
+"Power utility confirms planned outage in Delhi sector for grid maintenance, restoration expected within hours.",Delhi,6/18/2026,1,0,0
+"Indore health department confirms viral fever cases at local hospital, isolation ward set up as precaution.",Indore,6/28/2026,1,0,0
+"Claim that Kamand water supply poisoned deliberately found to be false rumor, water department confirms safe testing results.",Kamand,6/12/2026,0,1,1
+"Message about complete power blackout in Nashik for a week proven false, only 3 hour scheduled maintenance occurred.",Nashik,6/22/2026,0,0,1
+"Bhakra-Kullu highway officially closed after landslide, district administration advises alternate route via Bilaspur.",Bhakra,7/4/2026,1,0,0
+"Forward: mystery illness spreading fast in Amritsar hostels, students hospitalized, admin allegedly not informing parents.",Amritsar,6/15/2026,0,1,1
+Video claiming to show Kanpur flood actually traced to a different state by fact-checkers.,Kanpur,7/1/2026,0,0,1
+"Message says riots breaking out in Delhi, no official police statement available yet, stay cautious.",Delhi,7/5/2026,0,1,1
+"Rumor going around that Surat water has been contaminated, no official lab results shared yet, people avoiding tap water.",Surat,6/30/2026,0,1,1
+"PWD confirms landslide debris cleared on Patna road, traffic resumed after 6 hour closure.",Patna,6/25/2026,1,0,0
+"People saying aftershocks expected in Surat tonight, no official seismology confirmation yet.",Surat,6/26/2026,0,1,1
+"Forward claims multiple vehicles trapped in Bhakra landslide, exact numbers unverified.",Bhakra,6/21/2026,0,1,1
+"Nagpur police confirm prohibitory orders in specific zones following yesterday's protest, situation under control.",Nagpur,6/19/2026,1,0,0
+"Message claims Shimla bridge has washed away in flood, unconfirmed by any local news so far.",Shimla,6/12/2026,0,1,1
+"Heard that Surat highway completely blocked by landslide, no official confirmation, people stuck for hours.",Surat,6/22/2026,0,1,1
+"People saying aftershocks expected in Chandigarh tonight, no official seismology confirmation yet.",Chandigarh,6/30/2026,0,1,1
+"Message says gas leak caused explosion in Chandigarh hostel, fire department yet to confirm details.",Chandigarh,6/26/2026,0,0,1
+"Message says riots breaking out in Kullu, no official police statement available yet, stay cautious.",Kullu,7/4/2026,0,1,1
+"Claim of earthquake prediction for Dehradun next week debunked, seismologists confirm earthquakes cannot be predicted.",Dehradun,6/17/2026,0,0,1
+"District health officer in Indore verifies dengue cases rising, fogging drive scheduled this week.",Indore,7/7/2026,1,0,0
+"Rumor of major fire in Chandigarh industrial area found false, area was conducting a fire safety drill.",Chandigarh,7/7/2026,0,1,1
+"Voice note circulating that Guwahati area completely cut off due to flooding, exact situation unclear.",Guwahati,7/7/2026,0,0,1
+"Bhakra police confirm prohibitory orders in specific zones following yesterday's protest, situation under control.",Bhakra,7/2/2026,1,0,0
+"District health officer in Patna verifies dengue cases rising, fogging drive scheduled this week.",Patna,6/13/2026,1,0,0
+"Claim of city-wide curfew in Kullu debunked by police, situation reported to be completely normal.",Kullu,6/26/2026,0,0,1
+"National Center for Seismology confirms magnitude 4.2 tremor felt in Delhi, no damage reported.",Delhi,6/16/2026,1,0,0
+"PWD confirms landslide debris cleared on IIT Mandi road, traffic resumed after 6 hour closure.",IIT Mandi,6/24/2026,1,0,0
+"Nashik-Kullu highway officially closed after landslide, district administration advises alternate route via Bilaspur.",Nashik,6/16/2026,1,0,0
+"Message claims food poisoning outbreak in Indore mess hospitalized dozens, hospital yet to issue statement.",Indore,6/11/2026,0,1,1
+"Chandigarh fire brigade verifies factory fire contained, cause under investigation, no injuries.",Chandigarh,6/15/2026,1,0,0
+Old 2018 flood photos being recirculated and falsely captioned as current Nashik flooding.,Nashik,7/1/2026,0,0,1
+"Fire department confirms blaze at Shimla market controlled within two hours, no casualties reported.",Shimla,6/29/2026,1,0,0
+"National Center for Seismology confirms magnitude 4.2 tremor felt in Indore, no damage reported.",Indore,6/13/2026,1,0,0
+"Message says gas leak caused explosion in Surat hostel, fire department yet to confirm details.",Surat,7/6/2026,0,0,1
+"District health officer in Mandi verifies dengue cases rising, fogging drive scheduled this week.",Mandi,6/11/2026,1,0,0
+"Forward: Indore entirely submerged, water entering second floor of houses, no help has arrived yet.",Indore,6/13/2026,0,1,1
+"National Center for Seismology confirms magnitude 4.2 tremor felt in IIT Mandi, no damage reported.",IIT Mandi,6/25/2026,1,0,0
+"Claim that Indore water supply poisoned deliberately found to be false rumor, water department confirms safe testing results.",Indore,6/16/2026,0,1,1
+"Claim of city-wide curfew in Dehradun debunked by police, situation reported to be completely normal.",Dehradun,6/10/2026,0,0,1
+"Pune district disaster cell confirms minor quake, asks residents to follow standard safety precautions.",Pune,6/12/2026,1,0,0
+"Rumor that Kanpur water supply caused mass poisoning debunked, water quality test results came back normal.",Kanpur,6/12/2026,0,1,1
+"Old landslide visuals from last monsoon being shared as recent Nashik incident, debunked by local journalists.",Nashik,6/12/2026,0,1,1
+"Rumor of major fire in Amritsar industrial area found false, area was conducting a fire safety drill.",Amritsar,6/14/2026,0,1,1
+District administration Chandigarh officially confirms temporary restrictions near old city area till tomorrow evening.,Chandigarh,6/19/2026,1,0,0
+Bhakra district administration confirms relief camps opened in low-lying areas after river crossed danger mark.,Bhakra,6/28/2026,1,0,0
+"Message claims food poisoning outbreak in Kanpur mess hospitalized dozens, hospital yet to issue statement.",Kanpur,6/18/2026,0,1,1
+"Message says gas leak caused explosion in Nashik hostel, fire department yet to confirm details.",Nashik,6/10/2026,0,0,1
+"Sangli health department confirms viral fever cases at local hospital, isolation ward set up as precaution.",Sangli,6/18/2026,1,0,0
+"Rumor that Kullu water supply caused mass poisoning debunked, water quality test results came back normal.",Kullu,6/21/2026,0,1,1
+"Claim of landslide blocking Mandi-Manali road this week proven false, road was open as per traffic police records.",Mandi,6/15/2026,0,0,1
+"Message claims food poisoning outbreak in Mandi mess hospitalized dozens, hospital yet to issue statement.",Mandi,6/19/2026,0,1,1
+Old 2018 flood photos being recirculated and falsely captioned as current Sangli flooding.,Sangli,7/7/2026,0,0,1
+"Rumor that Chandigarh water supply caused mass poisoning debunked, water quality test results came back normal.",Chandigarh,6/14/2026,0,1,1
+Disaster management office Kamand verifies water level data and confirms 200 families moved to shelters.,Kamand,6/28/2026,1,0,0
+"District health officer in Mumbai verifies dengue cases rising, fogging drive scheduled this week.",Mumbai,6/23/2026,1,0,0
+"IIT Mandi fire brigade verifies factory fire contained, cause under investigation, no injuries.",IIT Mandi,7/5/2026,1,0,0
+"Rumor going around that Nagpur water has been contaminated, no official lab results shared yet, people avoiding tap water.",Nagpur,6/18/2026,0,1,1
+"Claim of new deadly virus outbreak in Sangli found to be fabricated, no cases reported to health department.",Sangli,6/23/2026,0,0,1
+"Forward circulating that curfew will be imposed across Delhi tonight, stock up on essentials, unconfirmed.",Delhi,7/6/2026,0,1,1
+"Claim of city-wide curfew in Nagpur debunked by police, situation reported to be completely normal.",Nagpur,7/4/2026,0,0,1
+"Rumor going around that Shimla water has been contaminated, no official lab results shared yet, people avoiding tap water.",Shimla,6/12/2026,0,1,1
+"Message about complete power blackout in Kamand for a week proven false, only 3 hour scheduled maintenance occurred.",Kamand,6/21/2026,0,0,1
+"Message claims Indore bridge has washed away in flood, unconfirmed by any local news so far.",Indore,7/1/2026,0,1,1
+"Claim of new deadly virus outbreak in Indore found to be fabricated, no cases reported to health department.",Indore,6/22/2026,0,0,1
+"Fire department confirms blaze at Kamand market controlled within two hours, no casualties reported.",Kamand,6/25/2026,1,0,0

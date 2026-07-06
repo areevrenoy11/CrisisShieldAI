@@ -1,29 +1,23 @@
 import sys
-import time
 from pathlib import Path
 
-# ---------------------------------
-# Fix Python Path
-# ---------------------------------
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-# ---------------------------------
-# Imports
-# ---------------------------------
 import streamlit as st
+import streamlit.components.v1 as components
 
 from src.main_pipeline import CrisisShieldPipeline
 from app.components import shield, loading
 
-# ---------------------------------
-# Initialize Pipeline
-# ---------------------------------
 pipeline = CrisisShieldPipeline()
 
-# ---------------------------------
-# Page Config
-# ---------------------------------
+PHI = 1.618
+
+@st.cache_data(show_spinner=False)
+def run_pipeline(message: str):
+    return pipeline.run(message)
+
 st.set_page_config(
     page_title="CrisisShieldAI",
     page_icon="🛡️",
@@ -31,201 +25,179 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# ---------------------------------
-# Load CSS
-# ---------------------------------
 css_file = ROOT / "app" / "assets" / "style.css"
-
 if css_file.exists():
     with open(css_file) as f:
-        st.markdown(
-            f"<style>{f.read()}</style>",
-            unsafe_allow_html=True
-        )
+        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-# ---------------------------------
+# Clear any localStorage entry that cached a collapsed sidebar state
+components.html("""
+<script>
+(function() {
+    try {
+        var keys = Object.keys(window.parent.localStorage);
+        keys.forEach(function(k) {
+            if (k.toLowerCase().includes('sidebar')) {
+                window.parent.localStorage.removeItem(k);
+            }
+        });
+    } catch(e) {}
+})();
+</script>
+""", height=0)
+
+DEMOS = {
+    "🔴 High Risk — Dam Rumor": (
+        "BREAKING!! Bhakra Dam has COLLAPSED. Entire downstream area flooding fast. "
+        "Government hiding this. FORWARD TO EVERYONE IMMEDIATELY before they delete this!!"
+    ),
+    "🟠 Medium Risk — Unverified Tremors": (
+        "Felt really strong tremors in Mandi around 2am last night. My whole building shook for "
+        "like 30 seconds. Heard from neighbours that some houses cracked. No official news yet."
+    ),
+    "🟢 Low Risk — Official Report": (
+        "National Center for Seismology confirms: Magnitude 4.2 earthquake recorded near Bhakra "
+        "at 03:14 IST. No structural damage or casualties reported. Situation being monitored."
+    ),
+}
+
+# --------------------------------------------------
 # Sidebar
-# ---------------------------------
+# --------------------------------------------------
+if "demo_message" not in st.session_state:
+    st.session_state.demo_message = ""
+
 with st.sidebar:
-
     st.title("🛡️ CrisisShieldAI")
-
     st.markdown("---")
-
     st.success("System Status")
-
     st.write("🟢 Hybrid AI Engine Online")
-
     st.write("🤖 Gemini Connected")
-
     st.write("🧠 ML Model Loaded")
-
     st.write("📚 Rule Engine Ready")
-
     st.markdown("---")
-
+    st.subheader("🧪 Demo Messages")
+    st.caption("Click to load into the analyzer")
+    for label, text in DEMOS.items():
+        if st.button(label, use_container_width=True):
+            st.session_state.demo_message = text
+    st.markdown("---")
     st.caption("Version 1.0")
 
-# ---------------------------------
-# Header
-# ---------------------------------
-left, right = st.columns([3, 1])
+# --------------------------------------------------
+# Header  —  golden ratio: title (φ) | shield (1)
+# --------------------------------------------------
+h_left, h_right = st.columns([PHI, 1])
 
-with left:
-
+with h_left:
     st.title("🛡️ CrisisShieldAI")
+    st.subheader("Enterprise Hybrid AI Rumor Verification Platform")
 
-    st.subheader(
-        "Enterprise Hybrid AI Rumor Verification Platform"
-    )
-
-    st.write(
-        """
-        Detect crisis rumors using a Hybrid AI Engine combining:
-
-        • Rule-Based Analysis
-
-        • Machine Learning
-
-        • Gemini AI
-
-        • Decision Fusion
-        """
-    )
-
-with right:
-
+with h_right:
     shield()
-
-# ---------------------------------
-# Input
-# ---------------------------------
 
 st.markdown("---")
 
+# --------------------------------------------------
+# Input
+# --------------------------------------------------
 message = st.text_area(
     "📩 Paste Crisis Message",
-    height=220,
+    value=st.session_state.demo_message,
+    height=160,
     placeholder="Paste a forwarded WhatsApp message, tweet or news text..."
 )
 
-# ---------------------------------
-# Analyze Button
-# ---------------------------------
+analyze = st.button("🚀 Analyze Message", use_container_width=True)
 
-if st.button("🚀 Analyze Message", use_container_width=True):
-
+# --------------------------------------------------
+# Analysis
+# --------------------------------------------------
+if analyze:
     if not message.strip():
-
         st.warning("Please enter a message.")
-
     else:
-
         status = st.empty()
-
-        status.info("🧹 Cleaning message...")
-        time.sleep(0.5)
-
-        status.info("📚 Running Rule Engine...")
-        time.sleep(0.5)
-
-        status.info("🤖 Running Machine Learning...")
-        time.sleep(0.5)
-
-        status.info("🧠 Consulting Gemini AI...")
+        status.info("Analyzing…")
         loading()
-
-        result = pipeline.run(message)
-
-        status.success("✅ Analysis Complete")
+        result = run_pipeline(message)
+        status.success("✅ Done")
 
         st.markdown("---")
 
-        tab1, tab2, tab3, tab4 = st.tabs(
-            [
-                "🧹 Rule Engine",
-                "🤖 ML Model",
-                "🧠 Gemini AI",
-                "🎯 Final Decision"
-            ]
-        )
+        final = result["final_decision"]
+        ml    = result["machine_learning"]
+        llm   = result["llm_analysis"]
+        rules = result["rule_engine"]
+        score = final["risk_score"]
 
-        # -----------------------------
-        # Rule Engine
-        # -----------------------------
+        # Primary results  —  golden ratio: decision (φ) | stats (1)
+        res_left, res_right = st.columns([PHI, 1])
 
-        with tab1:
-
-            st.subheader("Rule Engine Analysis")
-
-            st.json(result["rule_engine"])
-
-        # -----------------------------
-        # ML
-        # -----------------------------
-
-        with tab2:
-
-            st.subheader("Machine Learning")
-
-            st.metric(
-                "Confidence",
-                f'{result["machine_learning"]["confidence"]}%'
-            )
-
-            st.json(result["machine_learning"])
-
-        # -----------------------------
-        # Gemini
-        # -----------------------------
-
-        with tab3:
-
-            st.subheader("Gemini AI")
-
-            st.json(result["llm_analysis"])
-
-        # -----------------------------
-        # Final Decision
-        # -----------------------------
-
-        with tab4:
-
-            final = result["final_decision"]
-
-            score = final["risk_score"]
-
-            st.metric(
-                "Final Risk Score",
-                f"{score}%"
-            )
+        with res_left:
+            st.subheader("🎯 Final Decision")
 
             if score >= 80:
-                st.error("🔴 HIGH RISK")
-
+                st.error(f"🔴 HIGH RISK — {score}%")
             elif score >= 50:
-                st.warning("🟠 MEDIUM RISK")
-
+                st.warning(f"🟠 MEDIUM RISK — {score}%")
             else:
-                st.success("🟢 LOW RISK")
+                st.success(f"🟢 LOW RISK — {score}%")
 
-            st.markdown("### 📌 Claim")
+            st.progress(score / 100)
 
-            st.info(final["claim"])
+            st.markdown("**📌 Claim**")
+            st.info(final.get("claim", "—"))
 
-            st.markdown("### 📍 Location")
+            st.markdown("**🛡 Safe Response**")
+            st.success(final.get("safe_response", final.get("recommended_action", "—")))
 
-            st.write(final["location"])
+        with res_right:
+            st.subheader("📊 Details")
 
-            st.markdown("### ⚠ Missing Information")
+            st.metric("ML Confidence", f"{ml['confidence']}%")
+            st.metric("Rule Score", f"{rules.get('rule_score', 0)} / 100")
 
-            for item in final["missing_information"]:
-                st.write("•", item)
+            triggered = rules.get("triggered_rules", [])
+            if triggered:
+                for t in triggered:
+                    st.caption(f"⚡ {t}")
+            else:
+                st.caption("✅ No rules triggered")
 
-            st.markdown("### ✅ Recommended Action")
+            st.markdown("---")
 
-            st.success(final["recommended_action"])
+            st.markdown(f"**Event** &nbsp; `{llm.get('event_type', '—')}`", unsafe_allow_html=True)
+            st.markdown(f"**Location** &nbsp; `{final.get('location', '—')}`", unsafe_allow_html=True)
+            st.markdown(f"**Urgency** &nbsp; `{llm.get('urgency', '—')}`", unsafe_allow_html=True)
+            st.markdown(f"**Source** &nbsp; `{llm.get('source_type', '—')}` {'✅' if llm.get('source_present') else '❌'}", unsafe_allow_html=True)
 
-            st.markdown("### 🛡 Safe Response")
+            rumor_flags = llm.get("rumor_indicators", [])
+            if rumor_flags:
+                st.markdown("**🚩 Rumor Signals**")
+                for item in rumor_flags:
+                    st.caption(f"• {item}")
 
-            st.info(final["safe_response"])
+            cred_flags = llm.get("credibility_indicators", [])
+            if cred_flags:
+                st.markdown("**✅ Credibility Signals**")
+                for item in cred_flags:
+                    st.caption(f"• {item}")
+
+            missing = final.get("missing_information", [])
+            if missing:
+                st.markdown("**⚠ Missing**")
+                for item in missing:
+                    st.caption(f"• {item}")
+
+        # Raw details  —  golden ratio: rule (1) | llm (φ)
+        st.markdown("---")
+        d_left, d_right = st.columns([1, PHI])
+
+        with d_left:
+            with st.expander("📚 Rule Engine"):
+                st.json(rules)
+
+        with d_right:
+            with st.expander("🧠 LLM Output"):
+                st.json(llm)

@@ -27,7 +27,7 @@ from sklearn.metrics import (
 # Configuration
 # -------------------------------
 
-DATASET_PATH = "data/train.csv"
+DATASET_PATH = "data/processed_dataset.csv"
 MODEL_PATH = "models/best_model.pkl"
 RESULT_PATH = "models/model_comparison.csv"
 
@@ -45,14 +45,14 @@ def load_dataset():
 
     print("Shape:", df.shape)
 
-    required_columns = ["text", "target"]
+    df = df.rename(columns={"message": "text", "verification_status": "target"})
 
+    required_columns = ["text", "target"]
     for col in required_columns:
         if col not in df.columns:
             raise ValueError(f"Missing required column: {col}")
 
     df = df.dropna(subset=["text", "target"])
-
     df["text"] = df["text"].astype(str)
     df["target"] = df["target"].astype(int)
 

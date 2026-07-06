@@ -34,12 +34,12 @@ def preprocess():
     )
 
     label_mapping = {
-    "TRUE": 1,
-    "FALSE": 0,
-    "VERIFIED": 1,
-    "UNVERIFIED": 0,
-    "1": 1,
-    "0": 0,
+    "TRUE": 0,
+    "FALSE": 1,
+    "VERIFIED": 0,
+    "UNVERIFIED": 1,
+    "1": 0,
+    "0": 1,
     }
 
     df["verification_status"] = df["verification_status"].map(label_mapping)

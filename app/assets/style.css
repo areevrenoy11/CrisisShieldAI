@@ -2,8 +2,21 @@
     background: linear-gradient(135deg, #08121d, #0f2027, #203a43);
 }
 
+/* hide deploy toolbar and top decoration line, keep sidebar toggle intact */
+[data-testid="stToolbar"] { display: none !important; }
+[data-testid="stDecoration"] { display: none !important; }
+header[data-testid="stHeader"] {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
 .block-container {
-    padding-top: 2rem;
+    padding-top: 1rem;
+}
+
+/* pull sidebar content to the top */
+section[data-testid="stSidebar"] > div:first-child {
+    padding-top: 0.5rem !important;
 }
 
 .card {

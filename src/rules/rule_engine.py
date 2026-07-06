@@ -3,6 +3,8 @@ from src.rules.checks.panic import check_panic
 from src.rules.checks.forwarding import check_forwarding
 from src.rules.checks.capitalization import check_caps
 from src.rules.checks.punctuation import check_exclamation
+from src.rules.checks.vague_sourcing import check_vague_sourcing
+from src.rules.checks.authority import check_authority
 
 
 class RuleEngine:
@@ -16,18 +18,18 @@ class RuleEngine:
             check_urgency(cleaned_text),
             check_panic(cleaned_text),
             check_forwarding(cleaned_text),
+            check_vague_sourcing(cleaned_text),
+            check_authority(cleaned_text),
             check_caps(original_text),
             check_exclamation(original_text),
         ]
 
         for points, rule in checks:
-
             score += points
-
             if rule:
                 triggered.append(rule)
 
-        score = min(score, 100)
+        score = max(0, min(score, 100))
 
         if score < 30:
             level = "LOW"

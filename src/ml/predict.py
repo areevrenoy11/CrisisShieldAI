@@ -38,37 +38,18 @@ class MLPredictor:
         """
 
         prediction = int(self.model.predict([message])[0])
-
         probabilities = self.model.predict_proba([message])[0]
 
-        confidence = float(max(probabilities) * 100)
+        rumor_probability = float(probabilities[1]) * 100
 
         return {
-
             "prediction": prediction,
-
-            "label": (
-                "Disaster Related"
-                if prediction == 1
-                else "Not Disaster Related"
-            ),
-
-            "confidence": round(confidence, 2),
-
+            "label": "Rumor Detected" if prediction == 1 else "Verified / Low Risk",
+            "confidence": round(rumor_probability, 2),
             "probabilities": {
-
-                "not_disaster": round(
-                    float(probabilities[0]) * 100,
-                    2,
-                ),
-
-                "disaster": round(
-                    float(probabilities[1]) * 100,
-                    2,
-                ),
-
+                "verified": round(float(probabilities[0]) * 100, 2),
+                "rumor": round(rumor_probability, 2),
             },
-
         }
 
 

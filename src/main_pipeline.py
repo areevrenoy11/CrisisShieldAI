@@ -6,7 +6,7 @@ Main Enterprise Pipeline
 from src.preprocessing.cleaner import TextCleaner
 from src.rules.rule_engine import RuleEngine
 from src.ml.predict import MLPredictor
-from src.llm.analyzer import GeminiAnalyzer
+from src.llm.analyzer import LLMAnalyzer
 from src.fusion.decision_fusion import DecisionFusion
 
 
@@ -17,7 +17,7 @@ class CrisisShieldPipeline:
         self.cleaner = TextCleaner()
         self.rule_engine = RuleEngine()
         self.ml = MLPredictor()
-        self.llm = GeminiAnalyzer()
+        self.llm = LLMAnalyzer()
         self.fusion = DecisionFusion()
 
     def run(self, message: str):
