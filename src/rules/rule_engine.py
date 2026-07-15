@@ -5,6 +5,8 @@ from src.rules.checks.capitalization import check_caps
 from src.rules.checks.punctuation import check_exclamation
 from src.rules.checks.vague_sourcing import check_vague_sourcing
 from src.rules.checks.authority import check_authority
+from src.rules.checks.viral_template import check_viral_template
+from src.rules.checks.specificity import check_specificity
 
 
 class RuleEngine:
@@ -22,6 +24,8 @@ class RuleEngine:
             check_authority(cleaned_text),
             check_caps(original_text),
             check_exclamation(original_text),
+            check_viral_template(cleaned_text),
+            check_specificity(original_text),
         ]
 
         for points, rule in checks:

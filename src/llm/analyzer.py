@@ -8,7 +8,7 @@ import json
 
 from dotenv import load_dotenv
 from google import genai
-from google.genai.errors import ServerError
+from google.genai.errors import ServerError, ClientError
 
 from src.prompts.crisis_prompt import SYSTEM_PROMPT
 
@@ -55,6 +55,8 @@ class LLMAnalyzer:
 
             except ServerError:
                 continue
+            except ClientError:
+                return {**_FALLBACK, "recommended_action": "Gemini API key invalid or expired. Update GEMINI_API_KEY in .env.", "safe_response": "LLM unavailable — API key issue."}
             except json.JSONDecodeError:
                 return {**_FALLBACK, "safe_response": response.text.strip()}
 

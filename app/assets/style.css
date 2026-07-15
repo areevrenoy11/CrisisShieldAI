@@ -1,5 +1,6 @@
 .stApp {
     background: linear-gradient(135deg, #08121d, #0f2027, #203a43);
+    font-size: 110% !important;
 }
 
 /* hide deploy toolbar and top decoration line, keep sidebar toggle intact */

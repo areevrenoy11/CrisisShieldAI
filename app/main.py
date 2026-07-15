@@ -8,15 +8,14 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 from src.main_pipeline import CrisisShieldPipeline
-from app.components import shield, loading
+from app.components import shield
 
 pipeline = CrisisShieldPipeline()
 
 PHI = 1.618
 
-@st.cache_data(show_spinner=False)
-def run_pipeline(message: str):
-    return pipeline.run(message)
+def run_pipeline(message: str, source: str = "", analyst: str = ""):
+    return pipeline.run(message, source=source, analyst=analyst)
 
 st.set_page_config(
     page_title="CrisisShieldAI",
@@ -91,7 +90,7 @@ h_left, h_right = st.columns([PHI, 1])
 
 with h_left:
     st.title("🛡️ CrisisShieldAI")
-    st.subheader("Enterprise Hybrid AI Rumor Verification Platform")
+    st.subheader("Hybrid AI Rumor Verification Platform")
 
 with h_right:
     shield()
@@ -108,6 +107,12 @@ message = st.text_area(
     placeholder="Paste a forwarded WhatsApp message, tweet or news text..."
 )
 
+meta_left, meta_right = st.columns(2)
+with meta_left:
+    analyst = st.text_input("👤 Your Name", placeholder="Journalist / analyst name")
+with meta_right:
+    source = st.text_input("📌 Source", placeholder="WhatsApp group, Twitter, tip line…")
+
 analyze = st.button("🚀 Analyze Message", use_container_width=True)
 
 # --------------------------------------------------
@@ -119,9 +124,11 @@ if analyze:
     else:
         status = st.empty()
         status.info("Analyzing…")
-        loading()
-        result = run_pipeline(message)
-        status.success("✅ Done")
+        result = run_pipeline(message, source=source, analyst=analyst)
+        if result.get("cached"):
+            status.success("⚡ Instant result — cached from previous analysis")
+        else:
+            status.success("✅ Done")
 
         st.markdown("---")
 
@@ -131,7 +138,7 @@ if analyze:
         rules = result["rule_engine"]
         score = final["risk_score"]
 
-        # Primary results  —  golden ratio: decision (φ) | stats (1)
+        # Top row — golden ratio: decision (φ) | verdict stats (1)
         res_left, res_right = st.columns([PHI, 1])
 
         with res_left:
@@ -146,6 +153,10 @@ if analyze:
 
             st.progress(score / 100)
 
+            disagreement = final.get("engine_disagreement")
+            if disagreement:
+                st.warning(f"⚠️ **Engine Conflict:** {disagreement}")
+
             st.markdown("**📌 Claim**")
             st.info(final.get("claim", "—"))
 
@@ -153,42 +164,55 @@ if analyze:
             st.success(final.get("safe_response", final.get("recommended_action", "—")))
 
         with res_right:
-            st.subheader("📊 Details")
-
             st.metric("ML Confidence", f"{ml['confidence']}%")
             st.metric("Rule Score", f"{rules.get('rule_score', 0)} / 100")
+            st.metric("Urgency", llm.get("urgency", "—"))
 
-            triggered = rules.get("triggered_rules", [])
-            if triggered:
-                for t in triggered:
-                    st.caption(f"⚡ {t}")
-            else:
-                st.caption("✅ No rules triggered")
+        # Details row — two equal columns side by side
+        st.markdown("---")
+        st.subheader("📊 Details")
+        det_left, det_right = st.columns(2)
 
-            st.markdown("---")
+        with det_left:
+            with st.container(border=True):
+                st.markdown("**⚡ Triggered Rules**")
+                triggered = rules.get("triggered_rules", [])
+                if triggered:
+                    for t in triggered:
+                        st.caption(f"⚡ {t}")
+                else:
+                    st.caption("✅ No rules triggered")
 
-            st.markdown(f"**Event** &nbsp; `{llm.get('event_type', '—')}`", unsafe_allow_html=True)
-            st.markdown(f"**Location** &nbsp; `{final.get('location', '—')}`", unsafe_allow_html=True)
-            st.markdown(f"**Urgency** &nbsp; `{llm.get('urgency', '—')}`", unsafe_allow_html=True)
-            st.markdown(f"**Source** &nbsp; `{llm.get('source_type', '—')}` {'✅' if llm.get('source_present') else '❌'}", unsafe_allow_html=True)
+            with st.container(border=True):
+                st.markdown(f"**Event** &nbsp; `{llm.get('event_type', '—')}`", unsafe_allow_html=True)
+                st.markdown(f"**Location** &nbsp; `{final.get('location', '—')}`", unsafe_allow_html=True)
+                st.markdown(f"**Source** &nbsp; `{llm.get('source_type', '—')}` {'✅' if llm.get('source_present') else '❌'}", unsafe_allow_html=True)
 
             rumor_flags = llm.get("rumor_indicators", [])
             if rumor_flags:
-                st.markdown("**🚩 Rumor Signals**")
-                for item in rumor_flags:
-                    st.caption(f"• {item}")
+                with st.container(border=True):
+                    st.markdown("**🚩 Rumor Signals**")
+                    for item in rumor_flags:
+                        st.caption(f"• {item}")
 
+        with det_right:
             cred_flags = llm.get("credibility_indicators", [])
-            if cred_flags:
+            with st.container(border=True):
                 st.markdown("**✅ Credibility Signals**")
-                for item in cred_flags:
-                    st.caption(f"• {item}")
+                if cred_flags:
+                    for item in cred_flags:
+                        st.caption(f"• {item}")
+                else:
+                    st.caption("—")
 
             missing = final.get("missing_information", [])
-            if missing:
+            with st.container(border=True):
                 st.markdown("**⚠ Missing**")
-                for item in missing:
-                    st.caption(f"• {item}")
+                if missing:
+                    for item in missing:
+                        st.caption(f"• {item}")
+                else:
+                    st.caption("—")
 
         # Raw details  —  golden ratio: rule (1) | llm (φ)
         st.markdown("---")

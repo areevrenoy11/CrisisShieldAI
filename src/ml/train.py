@@ -15,6 +15,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.calibration import CalibratedClassifierCV
 
 from sklearn.metrics import (
     accuracy_score,
@@ -101,11 +102,12 @@ def train_models():
                 TfidfVectorizer(
                     stop_words="english",
                     max_features=5000,
+                    ngram_range=(1, 2),  # unigrams + bigrams
                 ),
             ),
             (
                 "classifier",
-                classifier,
+                CalibratedClassifierCV(classifier, cv=3),
             ),
         ])
 

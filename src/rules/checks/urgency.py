@@ -1,4 +1,5 @@
 import re
+from src.rules.checks.utils import is_negated
 
 URGENCY_WORDS = {
     "urgent", "immediately", "emergency", "alert", "breaking",
@@ -8,7 +9,11 @@ URGENCY_WORDS = {
 
 
 def check_urgency(text):
-    count = sum(bool(re.search(rf"\b{w}\b", text)) for w in URGENCY_WORDS)
+    count = 0
+    for w in URGENCY_WORDS:
+        m = re.search(rf"\b{w}\b", text)
+        if m and not is_negated(text, m.start()):
+            count += 1
     if count >= 3:
         return 30, "Multiple urgency words detected"
     if count:

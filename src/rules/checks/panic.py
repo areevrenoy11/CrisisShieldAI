@@ -1,4 +1,5 @@
 import re
+from src.rules.checks.utils import is_negated
 
 PANIC_WORDS = {
     "dead", "death", "explosion", "collapse", "terror", "riot",
@@ -9,7 +10,11 @@ PANIC_WORDS = {
 
 
 def check_panic(text):
-    count = sum(bool(re.search(rf"\b{w}\b", text)) for w in PANIC_WORDS)
+    count = 0
+    for w in PANIC_WORDS:
+        m = re.search(rf"\b{w}\b", text)
+        if m and not is_negated(text, m.start()):
+            count += 1
     if count >= 2:
         return 25, "Multiple panic-inducing terms"
     if count:

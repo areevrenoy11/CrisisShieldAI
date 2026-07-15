@@ -10,6 +10,8 @@ Combines outputs from:
 Produces one final enterprise risk assessment.
 """
 
+import statistics
+
 
 class DecisionFusion:
 
@@ -55,12 +57,19 @@ class DecisionFusion:
         # Decide Risk Level
         if final_score >= 80:
             risk = "HIGH"
-
         elif final_score >= 50:
             risk = "MEDIUM"
-
         else:
             risk = "LOW"
+
+        # Engine disagreement — high variance means the message is unusual
+        spread = statistics.stdev([rule_score, ml_probability, llm_score])
+        if spread > 30:
+            disagreement = "HIGH — engines conflict sharply, manual review advised"
+        elif spread > 15:
+            disagreement = "MEDIUM — some signal disagreement between engines"
+        else:
+            disagreement = None
 
         # Final Enterprise Report
         return {
@@ -90,6 +99,7 @@ class DecisionFusion:
                 "Please verify this information using trusted official sources before forwarding."
             ),
 
+            "engine_disagreement": disagreement,
             "component_scores": {
                 "rule_engine": round(rule_score, 2),
                 "machine_learning": round(ml_probability, 2),
